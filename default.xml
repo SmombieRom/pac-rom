@@ -504,7 +504,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" groups="pdk-fs" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="cm" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
+  <project path="system/core" name="SmombieRom/android_system_core" remote="github" revision="pac-6.0" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
@@ -541,7 +541,7 @@
 <!-- END PAC-ROM -->
 
 <!-- BEGIN SPLIT-SCREEN -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
+  <project path="device/qcom/sepolicy" name="Naman-Bhalla/rr_device_qcom_sepolicy" remote="github" revision="test" />
 <!-- END SPLIT-SCREEN -->
 
 </manifest>
