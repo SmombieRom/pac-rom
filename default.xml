@@ -541,7 +541,7 @@
 <!-- END PAC-ROM -->
 
 <!-- BEGIN SPLIT-SCREEN -->
-  <project path="device/qcom/sepolicy" name="Naman-Bhalla/rr_device_qcom_sepolicy" remote="github" revision="test" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
 <!-- END SPLIT-SCREEN -->
 
 </manifest>
