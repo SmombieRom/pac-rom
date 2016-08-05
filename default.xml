@@ -547,9 +547,9 @@
 <!-- END PAC-ROM -->
 
 <!-- BEGIN EXTRA VENDOR -->
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="cm" />
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="cm" />
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="vendor_nxp-nfc_opensource_nfc" groups="pdk" remote="cm" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="cm" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="cm" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_nfc" groups="pdk" remote="cm" />
 <!-- END EXTRA VENDOR -->
 
 <!-- BEGIN SPLIT-SCREEN -->
