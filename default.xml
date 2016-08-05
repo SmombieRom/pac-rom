@@ -30,8 +30,8 @@
            fetch="https://github.com/Split-Screen"
            review="review.pac-rom.com" />
   
-   <remote  name="bl"
-	   fetch="https://github.com/SmombieRom"
+   <remote  name="pc"
+	   fetch="https://github.com/PAC-ROM-OP3"
 	   revision="pac-6.0" />		  
   
   
@@ -530,7 +530,7 @@
 
 <!-- BEGIN PAC-ROM -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="pac" />
-  <project path="build" name="android_build" groups="pdk" remote="pac" >
+  <project path="build" name="android_build" groups="pdk" remote="pc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="pac" />
@@ -541,10 +541,16 @@
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="pac" />
   <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" clone-depth="1" remote="pac" />
   <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="pac" />
-  <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
+  <project path="vendor/pac" name="android_vendor_pac" remote="pc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
 <!-- END PAC-ROM -->
+
+<!-- BEGIN EXTRA VENDOR -->
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="cm" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="cm" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="vendor_nxp-nfc_opensource_nfc" groups="pdk" remote="cm" />
+<!-- END EXTRA VENDOR -->
 
 <!-- BEGIN SPLIT-SCREEN -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
