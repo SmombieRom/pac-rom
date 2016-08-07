@@ -529,7 +529,7 @@
 <!-- END HALS -->
 
 <!-- BEGIN PAC-ROM -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="pac" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="pc" />
   <project path="build" name="android_build" groups="pdk" remote="pc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
