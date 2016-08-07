@@ -555,5 +555,5 @@
 <!-- BEGIN SPLIT-SCREEN -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
 <!-- END SPLIT-SCREEN -->
-
+ <project path="external/busybox" name="android_external_busybox" remote="cm" />
 </manifest>
