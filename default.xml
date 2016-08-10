@@ -34,9 +34,9 @@
 	   fetch="https://github.com/PAC-ROM-OP3"
 	   revision="pac-6.0" />		  
 	   
-  <remote  name="rr"
-	   fetch="https://github.com/ResurrectionRemix"
-	   revision="marshmallow" />
+  <remote name="bucket"
+	  fetch="https://bitbucket.org"
+	  revision="master" />
   
   <default revision="refs/heads/pac-6.0"
            remote="github"
