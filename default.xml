@@ -30,9 +30,9 @@
            fetch="https://github.com/Split-Screen"
            review="review.pac-rom.com" />
   
-   <remote  name="pc"
+  <remote  name="pc"
 	   fetch="https://github.com/PAC-ROM-OP3"
-	   revision="pac-6.0" />		  
+	   review="pac-6.0" />		  
   
   
   <default revision="refs/heads/pac-6.0"
